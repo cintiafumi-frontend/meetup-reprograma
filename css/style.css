@@ -3,6 +3,12 @@ body {
   box-sizing: border-box;
 }
 
+.founders {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .profile {
   min-height: 100vh;
   display: flex;
@@ -12,6 +18,6 @@ body {
 }
 
 .profile__img {
-  height: 100%;
+  width: 200px;
   border-radius: 50%;
 }
